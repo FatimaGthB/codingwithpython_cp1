@@ -7,7 +7,7 @@ print("Welcome to the Guess the Number game!")
 print("I'm thinking of a number between 1 and 100. Can you guess what it is?")
 
 while nbr_essais > 0 :
-    nbr_essais -= 1
+    nbr_essais -= 1 # le nombre d'essai possible sera réduit de 1 pour chaque entrée de l'utilisateur
     var = int(input("Enter your guess: ")) # var sera le nombre entré par l'utilisateur
     if var > n :
         print("Your guess is too high. Guess again.")
